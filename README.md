@@ -2,19 +2,20 @@ start the DSA
 
 
 What is C++?
-    C++ is a high-performance programming language used for system programming, competitive programming, and Data Structures & Algorithms.
-    It supports both procedural and object-oriented programming.
+ ->  C++ is a high-performance programming language used for system programming, competitive programming, and Data Structures & Algorithms.
+->   It supports both procedural and object-oriented programming.
+
 
 ==> Topic 1: Basic Input/Output in C++ : 
         Definition 
         Input/Output in C++ uses:
 
         cin → to take input
-
         cout → to print output
 
         From the header file: #include <iostream>
         Namespace used: using namespace std;
+
 
 ==> Topic 2: Variables, Data Types & Operators :
         Definition 
@@ -42,6 +43,7 @@ What is C++?
                 Logical (&&, ||, !)
                 Assignment (=, +=, -=, etc.)
 
+
 ==> Topic 3: Control Statements (If/Else, Loops) :
 
         Control Statements : 
@@ -67,3 +69,18 @@ What is C++?
             C. Jump Statements :
                 break
                 continue
+
+==> Topic 4: Arrays :
+
+    -> Definition : 
+        An array is a collection of elements of the same data type, stored in continuous (contiguous) memory, and accessed using index numbers.
+    -> Indexing starts from 0.
+
+    Array Important Properties(In DSA)
+        Fast access: O(1)
+        Fixed size
+        Memory continuous 
+        Searching O(n)
+        Insertion/Deletion costly (O(n))
+     
+        
