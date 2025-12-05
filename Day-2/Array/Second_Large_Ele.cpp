@@ -2,6 +2,8 @@
 // Example 9: Second largest element
 
 #include <iostream>
+#include <climits>
+
 using namespace std;
 
 int main() {
@@ -15,7 +17,7 @@ int main() {
     for(int i=0; i<n; i++)
      cin >> arr[i];
 
-    int largest = -1e9, second = -1e9;
+  int largest = INT_MIN, second = INT_MIN;
 
     for(int i=0; i<n; i++){
         if(arr[i] > largest){
