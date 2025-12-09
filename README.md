@@ -83,4 +83,20 @@ What is C++?
         Searching O(n)
         Insertion/Deletion costly (O(n))
      
-        
+==> Topic 5: Searching Algorithms (Linear Search + Binary Search)
+
+    => 1. Linear Search ::-
+
+        ->  Definition:
+            Linear Search checks each element one by one until the key is found.
+         -> Time Complexity: O(n)
+         -> Best when:
+                Array is unsorted
+                Small dataset
+
+    => BINARY SEARCH (Most Important in DSA)
+
+         -> Definition:
+             Binary search works on sorted arrays only.
+          -> It repeatedly divides the search space into two halves.
+          -> Time complexity: O(log n) → very fast.    
